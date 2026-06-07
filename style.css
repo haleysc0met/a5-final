@@ -13,19 +13,32 @@
     /* border-image:url("https://files.catbox.moe/16vx4u.png") 9 fill round; */
 }
 
+/* ! container for row elements */
 .container2 {
 display: flex;
 flex-direction: row;
 justify-content: center;
 
 }
+/* ! boxes for elements  */
 #box1 {
 display: flex;
 flex-direction: row;
-justify-content: space-evenly;
-align-items: end;
+margin-right: 10px;
+/* justify-content: space-evenly; */
+align-items: center;
+border: 1px;
+border-style: dashed;
+flex-wrap: wrap;
+padding: 20px;
 }
 
+#box2 {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+
+}
 
 #text1 { 
     display: flex;
