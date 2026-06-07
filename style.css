@@ -1,10 +1,19 @@
+.parent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(179, 135, 220);
+}
 .container {
 
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    margin: auto;
+    align-content: center;
+    margin: 25%;
+    background-color: royalblue;
      /* border: 2px solid black;
     position: relative;
     border-style: solid;
@@ -18,25 +27,30 @@
 display: flex;
 flex-direction: row;
 justify-content: center;
+align-items: center;
 
 }
 /* ! boxes for elements  */
 #box1 {
 display: flex;
 flex-direction: row;
-margin-right: 10px;
-/* justify-content: space-evenly; */
+justify-content: space-evenly;
 align-items: center;
 border: 1px;
 border-style: dashed;
 flex-wrap: wrap;
 padding: 20px;
+margin-right: 10px;
 }
 
 #container3 {
     display: flex;
     flex-direction: column;
-    margin: auto;
+    margin-left: 25%;
+    margin-right: 25%;
+background-color: aliceblue;
+
+
 
 }
 
@@ -45,4 +59,11 @@ padding: 20px;
     flex-direction: column;
     align-content: stretch;
     align-items: center;
+       margin-left: 25%;
+    margin-right: 25%;
+}
+
+@font-face {
+    font-family: 'Strawberry-Muffins';
+    src: url("https://478.neocities.org/catalog/fonts.css");
 }
