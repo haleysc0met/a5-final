@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    background-color: rgb(179, 135, 220);
+    
 }
 .container {
 
@@ -12,8 +12,7 @@
     justify-content: space-evenly;
     align-items: center;
     align-content: center;
-    margin: 25%;
-    background-color: royalblue;
+    margin: auto;
      /* border: 2px solid black;
     position: relative;
     border-style: solid;
@@ -48,9 +47,6 @@ margin-right: 10px;
     flex-direction: column;
     margin-left: 25%;
     margin-right: 25%;
-background-color: aliceblue;
-
-
 
 }
 
@@ -66,4 +62,10 @@ background-color: aliceblue;
 @font-face {
     font-family: 'Strawberry-Muffins';
     src: url("https://478.neocities.org/catalog/fonts.css");
+}
+#caveat-brush-regular {
+  font-family: "Caveat Brush", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
 }
