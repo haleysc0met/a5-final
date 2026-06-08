@@ -12,6 +12,7 @@ body{
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+    margin: 0px;
     
 }
 .container {
@@ -21,7 +22,8 @@ body{
     justify-content: space-evenly;
     align-items: center;
     align-content: center;
-    margin: auto;
+    margin-bottom: 0px;
+    padding: 0px;
     
 }
 
@@ -74,7 +76,7 @@ margin-right: 10px;
   font-family: "Caveat Brush", cursive;
   font-weight: 400;
   font-style: normal;
-  font-size: 50px;
+  font-size: 70px;
 }
 
 .heading1 {
@@ -93,7 +95,6 @@ margin-right: 10px;
     drop-shadow(-1px -1px 1.5px rgb(255, 255, 255) );    
     mask-image: url(https://i.ibb.co/JjDXBPr/ED5929-CE-1-D66-4-EC4-8-F8-A-14792-D8-F2384.png);
     mask-size: 300px 500px;
-    margin: 10%;
 }
 
 #text {
