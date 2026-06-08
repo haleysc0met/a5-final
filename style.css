@@ -1,3 +1,12 @@
+
+body{
+    /* background-image: url("https://dl.glitter-graphics.com/pub/132/132031jviedtv86c.jpg");
+     background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center; */
+    background-color:rgb(225, 245, 255)
+}
 .parent {
     display: flex;
     flex-direction: column;
@@ -13,12 +22,7 @@
     align-items: center;
     align-content: center;
     margin: auto;
-     /* border: 2px solid black;
-    position: relative;
-    border-style: solid;
-    border-width: 15px;
-    padding: 5px; */
-    /* border-image:url("https://files.catbox.moe/16vx4u.png") 9 fill round; */
+    
 }
 
 /* ! container for row elements */
@@ -35,8 +39,11 @@ display: flex;
 flex-direction: row;
 justify-content: space-evenly;
 align-items: center;
-border: 1px;
-border-style: dashed;
+border-width: 10px;
+          border-style: solid;
+          border-image: url("https://file.garden/ZZ2PUl9MPilKgIvB/collection/borders/fp9ci4.png") 8 fill round;
+      
+border-style: dashed; 
 flex-wrap: wrap;
 padding: 20px;
 margin-right: 10px;
@@ -69,3 +76,39 @@ margin-right: 10px;
   font-style: normal;
   font-size: 50px;
 }
+
+.heading1 {
+  
+    margin: 20px;
+}
+
+.dropshadow{
+    filter: drop-shadow(2px 2px 0 rgb(255, 255, 255)) 
+  drop-shadow(-2px 1px 0 rgb(255, 255, 255)) 
+  drop-shadow(0 2px 0 rgb(255, 255, 255)) 
+  drop-shadow(0 2px 0 rgb(255, 255, 255)) 
+  drop-shadow(0 1px 2.5px rgb(255, 255, 255)) 
+  drop-shadow(0 -1px 1.5px rgb(255, 255, 255)) 
+  drop-shadow(1px -1px 1.5px rgb(255, 255, 255)) 
+    drop-shadow(-1px -1px 1.5px rgb(255, 255, 255) );    
+    mask-image: url(https://i.ibb.co/JjDXBPr/ED5929-CE-1-D66-4-EC4-8-F8-A-14792-D8-F2384.png);
+    mask-size: 300px 500px;
+    margin: 10%;
+}
+
+#text {
+   background-image: url("https://media.giphy.com/media/70BItD093Mhnq/giphy.gif");
+    -webkit-background-clip: text;
+    background-clip: text; /* standard property for compatibility */
+    -webkit-text-fill-color: transparent;
+    color: transparent; /* fallback for non-webkit browsers */
+}
+
+/* @keyframes tilt {
+  from { transform: rotate(5deg); }
+  to { transform: rotate(-5deg); }
+} */
+
+
+    
+        
