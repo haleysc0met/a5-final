@@ -105,6 +105,15 @@ margin-right: 10px;
     color: transparent; /* fallback for non-webkit browsers */
 }
 
+.gluten-uniquifier {
+  font-family: "Gluten", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+}
+
 /* @keyframes tilt {
   from { transform: rotate(5deg); }
   to { transform: rotate(-5deg); }
